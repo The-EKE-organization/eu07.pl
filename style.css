@@ -4,17 +4,19 @@ body {
 }
 #header{
     background: url('images/header2018.jpg') no-repeat;
+    width: 1385px;
     height: 216px;
-    margin : 0;
+    margin: 0;
     display: block;
     overflow: hidden;
+    text-align: center;
 }
 #lang {
     width: 180px;
     height: 30px;
-    display: block;
     overflow: hidden;
     padding: 0;
+    display: block;
     text-align: right;
     float: right;
     margin: 3px;
@@ -86,4 +88,7 @@ main iframe {
     background:rgb(6, 71, 6);
     color: white;
     padding: 15px;
+}
+#lang a {
+    text-decoration: none;
 }
