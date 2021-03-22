@@ -45,24 +45,26 @@ main iframe {
     margin-left: 190px;
 }
 .download {
-    margin-top: 60px;
+    margin-top: 70px;
     text-align: center;
     justify-content: center;
-    display: flex;
+    margin-bottom: 70px;
+    display: inline-table;
 }
 .download #s a {
+    margin-right: 500px;
     padding: 20px;
     text-decoration: none;
     color: white;
     background: rgb(38, 255, 0);
 }
 .download #d a {
-    margin-top: 60px;
     padding: 20px;
+    margin-bottom: 90px;
     text-decoration: none;
     color: white;
     background: rgb(38, 255, 0);
-    margin-left: 30px;
+    margin-left: 500px;
 }
 .download #d a:hover {
     background: rgb(6, 71, 6);
@@ -82,12 +84,15 @@ main iframe {
 }
 #other h2 {
     text-align: center;
+    margin-bottom: 20px;
 }
 #footer {
     text-align: center;
     background:rgb(6, 71, 6);
     color: white;
     padding: 15px;
+    margin-top: 60px;
+    display: inline-flexbox;
 }
 #lang a {
     text-decoration: none;
