@@ -49,13 +49,14 @@ main iframe {
     text-align: center;
     justify-content: center;
     margin-bottom: 70px;
+    display: flex;
 }
 .download #s a {
-    margin-right: 500px;
     padding: 20px;
     text-decoration: none;
     color: white;
     background: rgb(38, 255, 0);
+    margin: 30px;
 }
 .download #d a {
     padding: 20px;
@@ -63,7 +64,7 @@ main iframe {
     text-decoration: none;
     color: white;
     background: rgb(38, 255, 0);
-    margin-left: 500px;
+    margin: 30px;
 }
 .download #d a:hover {
     background: rgb(6, 71, 6);
@@ -99,7 +100,7 @@ main iframe {
 @media only screen and (min-width: 1420px){
     #header {
         background: url('images/header20182.jpg') no-repeat;
-        width: 1500px;
+        width: 1495px;
         height: 216px;
         margin: 0;
         display: block;
