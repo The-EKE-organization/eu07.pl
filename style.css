@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 #header{
-    background: url('images/header2018.jpg') no-repeat;
+    background: url('images/header20182.jpg') no-repeat;
     width: 1384px;
     height: 216px;
     margin: 0;
@@ -49,7 +49,6 @@ main iframe {
     text-align: center;
     justify-content: center;
     margin-bottom: 70px;
-    display: inline-table;
 }
 .download #s a {
     margin-right: 500px;
@@ -99,7 +98,7 @@ main iframe {
 }
 @media only screen and (min-width: 1420px){
     #header {
-        background: url('images/header2018.jpg') no-repeat;
+        background: url('images/header20182.jpg') no-repeat;
         width: 1500px;
         height: 216px;
         margin: 0;
